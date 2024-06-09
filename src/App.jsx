@@ -1,10 +1,15 @@
 // import PropTypes from "prop-types";
+import { useState, useEffect } from 'react';
+import ToDoList from './components/ToDoList/ToDoList';
+import todos from './todos.json';
 
 const App = () => {
   return (
-    <div>
+    <>
       <h1>Главный компонент-контейнер приложения</h1>
-    </div>
+
+      <ToDoList todos={todos} />
+    </>
   );
 };
 

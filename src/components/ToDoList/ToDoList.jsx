@@ -1,11 +1,12 @@
 // import PropTypes from 'prop-types';
-import items from 'App';
+import ToDo from '../ToDo/ToDo';
+// import todos from '';
 
 const ToDoList = () => (
   <ul>
-    {items.map(item => (
+    {/* {items.map(item => (
       <li></li>
-    ))}
+    ))} */}
   </ul>
 );
 

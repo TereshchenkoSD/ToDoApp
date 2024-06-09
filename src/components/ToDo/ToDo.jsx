@@ -3,6 +3,8 @@
 const ToDo = () => (
   <div>
     <p></p>
+    <input></input>
+    <button type="button"></button>
   </div>
 );
 
